@@ -1,0 +1,49 @@
+.row {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.image-placeholder {
+  width: 30px;
+  height: 30px;
+}
+
+.row__name {
+  padding-left: 15px;
+  flex: 0 90px;
+}
+
+.row__surname {
+  flex: 0 90px;
+}
+
+.row__email {
+  flex: 0 200px;
+}
+
+.row__phone {
+  flex: 0 120px;
+}
+
+.row__state {
+  flex: 0 50px;
+}
+
+.row__city, .row__address {
+  flex: 0 140px;
+}
+
+.row__zip {
+  flex: 0 100px;
+}
+
+.row svg {
+  height: 10px;
+  width: 10px;
+}
